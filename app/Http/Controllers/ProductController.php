@@ -41,10 +41,4 @@ class ProductController extends Controller
         event(new ProductUpdated($data, 'my-channel', 'my-event'));
         return true;
     }
-
-    public function pusher()
-    {
-        $data = Product::get();
-        event(new ProductUpdated($data, 'my-channel', 'my-event'));
-    }
 }

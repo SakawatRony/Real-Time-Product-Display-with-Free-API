@@ -18,5 +18,3 @@ Route::get('/', [ProductController::class, 'products'])->name('product');
 Route::get('/db-products', [ProductController::class, 'dbProducts'])->name('product.db');
 
 Route::post('/store', [ProductController::class, 'productStore'])->name('product.store');
-
-Route::get('/pusher', [ProductController::class, 'pusher']);
