@@ -20,8 +20,9 @@ Please follow this command in below:
 
 ## URL
 1. Root url will show products from API
-2. After enter '/db-products' here will show database stored products
-3. It's workable with real time store
+2. When product save to database, real time data updated on url '/db-products'
+3. Please open two tab or different browser tab at a same time  
+4. That's '/db-products' url showing database stored products
 
 ## License
 
