@@ -19,9 +19,9 @@ Please follow this command in below:
 4. Run command 'php artisan serve'
 
 ## URL
-Root url will show products from API
-After enter '/db-products' here will show database stored products
-It's workable with real time store
+1. Root url will show products from API
+2. After enter '/db-products' here will show database stored products
+3. It's workable with real time store
 
 ## License
 
